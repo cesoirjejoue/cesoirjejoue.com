@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0">
+	<meta name="Description" content="Boardgames">
+	<meta name="theme-color" content="#fafafa" />
+
+	<title>{{ page.title }} &ndash; cesoirjejoue.com</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+	<section>
+
+	    <aside>
+		    
+		    <img src="{{ site.baseurl }}/img/avatar.jpg" title="cesoirjejoue" class="avatar" />
+		    
+			<h1>cesoirjejoue</h1>
+
+			<p>Amateur de jeux de société et fan de développement web, voici mon petit blog tout humble pour partager mes avis ou coups de c&oelig;ur sur certains jeux, classiques ou moins classiques...</p>
+
+			<p>
+				<img src="{{ site.baseurl }}/img/microbadges/C.gif" title="Carcassonne fan"/>
+				<img src="{{ site.baseurl }}/img/microbadges/bruno.png" title="Bruno Cathala fan"/>
+				<img src="{{ site.baseurl }}/img/microbadges/rw.png" title="Roll & Write fan"/>
+				<img src="{{ site.baseurl }}/img/microbadges/pandemic.png" title="Pandemic: The Cure fan"/>
+				<img src="{{ site.baseurl }}/img/microbadges/green.png" title="I play with green! - Green Meeple"/>
+			</p>
+			<br />	<br />
+
+			<a href= "#">Profil Instagram<b></b></a>
+
+	    </aside>
+
+	    <article>
+		<!--{% if page.home %}-->
+			{{ content }}
+		<!--{% else %}-->
+	      	 	<div class="article_white">{{ content }}</div>
+		<!--{% endif %}-->
+
+	        <footer>
+	        	<p>
+				cesoirjejoue &copy; {{ site.time | date: '%Y' }} &dash; Construit avec <a href="https://github.com/mojombo/jekyll">Jekyll</a> et h&eacute;berg&eacute; sur Github. Ic&#xF4;nes du profil emprunt&eacute;es au site <a href="https://boardgamegeek.com/">Board Game Geek</a>. <br />
+				Ce site fonctionne sans cookie... pas comme moi... ;)
+			</p>
+	        </footer>
+
+	    </article>
+
+	</section>
+
+</body>
+</html>
