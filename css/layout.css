@@ -143,8 +143,11 @@ h2 a {
 	font-weight: 300;
 	padding: 0 3px;
   text-decoration: none;
-  color:
 }
+
+  h2 a:hover {
+    color: #FF9B26;
+  }
 
 
 h2 span {
@@ -337,3 +340,15 @@ ol li {
   height: 100px;
   margin: 10px 55px;
 }
+
+a.more {
+  background-color: #fff;
+  padding: 3px 10px;
+  text-decoration: none;
+  border: solid 1px #ccc;
+  border-bottom: solid 2px #FF9B26;
+}
+
+  a.more:hover {
+    border-color: #FF9B26;
+  }
