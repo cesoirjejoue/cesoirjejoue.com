@@ -6,7 +6,7 @@ meta: Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci
 image: 2019-12-12_avatar.jpg
 ---
 
-![Image alt text]({{ site.baseurl }}/img/posts/2019-12-12_avatar.jpg "Ce soir je joue")
+![Ce soir je joue]({{ site.baseurl }}/img/posts/2019-12-12_avatar.jpg "Ce soir je joue")
 
 Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci est créé de toutes pièces par mes petites mains à moi... J'y suis donc fortement attaché !!
 
@@ -17,7 +17,7 @@ Faiblement, j'avais dit "Oui ? Pourquoi pas ?"... Cela allait me changer du clas
 Mais je n'imaginais pas encore à quel point...
 Bon, cette première rencontre s'est soldée par un lamentable échec, mais ce n'était pas important... J'avais mis le pied dans une nouvelle passion, un nouveau passe-temps (et un nouveau gouffre financier, sic...)...
 
-![Image alt text]({{ site.baseurl }}/img/posts/2019-12-12_cannes.jpg "Festival des jeux de Cannes")
+![Festival des jeux de Cannes]({{ site.baseurl }}/img/posts/2019-12-12_cannes.jpg "Festival des jeux de Cannes")
 
 ## 2 ans après
 
@@ -26,3 +26,5 @@ Bon, cette première rencontre s'est soldée par un lamentable échec, mais ce n
 J'ai ensuite continué à étoffer ma (timide) ludothèque tout au long de l'année, puis, en cette fin 2019, je me suis demandé "Tiens ? Et si je faisais mon propre site pour parler des jeux que j'aime bien, de mes coups de coeur,..." Et nous y voilà, est né ce modeste site qui, je l'espère, va vivre quelques temps et intéresser quelques personnes...
 
 On se revoit très bientôt pour le premier post officel après cette introduction !!
+
+{% include image.html url="{{ site.baseurl }}/img/posts/2019-12-24_carcassonne_1.jpg" description="I love Carcassonne" %}

@@ -155,7 +155,7 @@ h2 span {
   font-style: italic;
 }
 
-img {
+img, .image {
 	-webkit-box-shadow: 0 4px 4px -2px #aaa;
 	-moz-box-shadow: 0 4px 4px -2px #aaa;
 	box-shadow: 0 4px 4px -2px #aaa;
@@ -176,7 +176,7 @@ article h2 {
   margin-bottom: 30px;
 }
 
-article img {
+article img, article .image {
 	width: 400px;
 	position: relative;
 	left: 50%;
