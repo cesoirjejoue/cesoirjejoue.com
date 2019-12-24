@@ -27,3 +27,6 @@ Bon, cette première rencontre s'est soldée par un lamentable échec, mais ce n
 J'ai ensuite continué à étoffer ma (timide) ludothèque tout au long de l'année, puis, en cette fin 2019, je me suis demandé "Tiens ? Et si je faisais mon propre site pour parler des jeux que j'aime bien, de mes coups de coeur,..." Et nous y voilà, est né ce modeste site qui, je l'espère, va vivre quelques temps et intéresser quelques personnes...
 
 On se revoit très bientôt pour le premier post officel après cette introduction !!
+
+{% include image.html url="/img/posts/2019-12-24_carcassonne_1.jpg" description="I love Carcassonne" %}
+ 
