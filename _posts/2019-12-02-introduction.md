@@ -7,7 +7,6 @@ image: 2019-12-12_avatar.jpg
 ---
 
 ![Ce soir je joue]({{ site.baseurl }}/img/posts/2019-12-12_avatar.jpg "Ce soir je joue")
-*Test de légende*
 
 Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci est créé de toutes pièces par mes petites mains à moi... J'y suis donc fortement attaché !!
 
