@@ -2,13 +2,13 @@
 date: 2019-12-12
 layout: post
 title: Encore un blog de jeu ?
-meta: Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci est créé de toutes pièces par mes petites mains à moi... J'y suis donc fortement attaché !!
-image: 2019-12-12_avatar.jpg
 ---
 
 ![Ce soir je joue]({{ site.baseurl }}/img/posts/2019-12-12_avatar.jpg "Ce soir je joue")
 
 Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci est créé de toutes pièces par mes petites mains à moi... J'y suis donc fortement attaché !!
+
+<!--more-->
 
 ## Mais pourquoi ?
 
