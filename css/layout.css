@@ -296,7 +296,8 @@ kbd {
 }
 
   .article_white a {
-      text-decoration: none;
+      /*text-decoration: none;*/
+      color: #FF9B26
     }
 
 ol li {
