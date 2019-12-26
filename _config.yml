@@ -4,3 +4,7 @@ markdown: kramdown
 permalink: /:year/:month/:title
 paginate: 5
 excerpt_separator: <!--more-->
+plugins:
+  - jekyll-feed
+feed:
+  excerpt_only: true

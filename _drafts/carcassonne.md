@@ -2,6 +2,7 @@
 date: 2019-12-24
 layout: post
 title: Carcassonne, l'intemporel
+categories: [Tuiles]
 ---
 
 {% include image.html url="/img/posts/2019-12-24_carcassonne_1.jpg" description="I love Carcassonne" %}
@@ -11,7 +12,7 @@ Aujourd'hui le classique, l'indémodable, le célèbre Carcassonne. Un jeu qui m
 <!--more-->
 
 **Carcassonne** fut un des premiers jeux que j'ai découvert après avoir commencé mon aventure dans le monde du jeu. Un peu comme beaucoup de monde j'imagine. Un jeu "tout simple", avec "juste" des tuiles et des meeples, mais qui possède une richesse de stratégies et de fourberies impressionnante.
-
+Depuis sa sortie initale en 2000, ce jeu, imaginé par [Klaus-Jürgen Wrede](http://www.kjwrede.de/), a connu bon nombre d'extensions et de variations.
 
 ## Du cinéma...
 
