@@ -4,7 +4,7 @@ layout: post
 title: Encore un blog de jeu ?
 ---
 
-![Ce soir je joue]({{ site.baseurl }}/img/posts/2019-12-12_avatar.jpg "Ce soir je joue")
+![Ce soir je joue]({{ site.baseurl }}/img/posts/2019/12/avatar.jpg "Ce soir je joue")
 
 Et oui, encore un blog/site web sur les jeux de société !! Mais celui-ci est créé de toutes pièces par mes petites mains à moi... J'y suis donc fortement attaché !!
 
@@ -17,7 +17,7 @@ Faiblement, j'avais dit "Oui ? Pourquoi pas ?"... Cela allait me changer du clas
 Mais je n'imaginais pas encore à quel point...
 Bon, cette première rencontre s'est soldée par un lamentable échec, mais ce n'était pas important... J'avais mis le pied dans une nouvelle passion, un nouveau passe-temps (et un nouveau gouffre financier, sic...)...
 
-![Festival des jeux de Cannes]({{ site.baseurl }}/img/posts/2019-12-12_cannes.jpg "Festival des jeux de Cannes")
+![Festival des jeux de Cannes]({{ site.baseurl }}/img/posts/2019/12/cannes.jpg "Festival des jeux de Cannes")
 
 ## 2 ans après
 
