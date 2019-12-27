@@ -11,7 +11,7 @@ home: yes
 			{{ post.excerpt }}
 			<a href="{{ post.url }}" class="more">Lire la suite</a>
 			{% for category in post.categories %}
-			    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}"><kbd>{{ category }}</kbd></a>
+			    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify | escape }}"><kbd>{{ category }}</kbd></a>
 			{% endfor %}
 		</li>
 	{% endfor %}
