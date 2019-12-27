@@ -8,4 +8,4 @@ plugins:
   - jekyll-feed
 feed:
   excerpt_only: true
-category_page: 'categories/'
+category_page: '/categories/'
