@@ -2,7 +2,7 @@
 date: 2019-12-26
 layout: post
 title: Carcassonne, l'intemporel
-categories: [Tuiles, Catégorie 2]
+categories: [Tuiles]
 ---
 
 {% include image.html url="/img/posts/2019/12/carcassonne_1.jpg" description="I love Carcassonne" %}
