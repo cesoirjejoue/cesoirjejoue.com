@@ -101,6 +101,7 @@ ul li {
 
 h3 {
   margin-top: 30px;
+  padding: 2px 5px;
 }
 
 aside a {
@@ -305,6 +306,7 @@ ol li {
   padding: 0;
   border: none;
   background: transparent;
+  margin-left: 10px;
 }
 
 .nav {
