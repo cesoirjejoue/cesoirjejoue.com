@@ -195,12 +195,11 @@ article p {
   margin-top: 30px;
 }
 
-article li {
+article ul li {
   background: #fff;
   padding: 20px;
-  margin: 0 10px 10px;
+  margin: 0 10px 30px;
   border : solid 1px #ccc;
-
 }
 
 article a {
