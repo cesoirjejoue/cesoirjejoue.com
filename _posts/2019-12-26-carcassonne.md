@@ -14,6 +14,7 @@ Aujourd'hui le classique, l'indémodable, le célèbre Carcassonne. Un jeu qui m
 **Carcassonne** fut un des premiers jeux que j'ai découvert après avoir commencé mon aventure dans le monde du jeu. Un peu comme beaucoup de monde j'imagine. Un jeu "tout simple", avec "juste" des tuiles et des meeples, mais qui possède une richesse de stratégies et de fourberies impressionnante.
 Depuis sa sortie initale en 2000, ce jeu, imaginé par [Klaus-Jürgen Wrede](http://www.kjwrede.de/), a connu bon nombre d'extensions et de variations. Je vais mentionner dans cet article quelques versions que j'ai eu l'occasion d'observer ou de manipuler moi-même.
 
+
 ## Du cinéma...
 
 {% include image.html url="/img/posts/2019/12/carcassonne_3.jpg" description="Petite partie de Carcassonne Star Wars" %}
@@ -21,6 +22,7 @@ Depuis sa sortie initale en 2000, ce jeu, imaginé par [Klaus-Jürgen Wrede](htt
 Carcassonne se permet même le luxe de s'offrir une édition **Star Wars**, un univers qui me tient tout particulièrement à coeur. Cette édition apporte un nouvel élément de gameplay, le duel s'effectuant aux dés. Et oui, si une route galactique fait se rejoindre deux meeples, ils vont se battre. Idem, si vous posez une tuile à côté d'une planète habitée par un meeple, vous pouvez aller le quereller pour prendre le contrôle de Corellia.
 Ces combats vont alors se faire aux dés. Un dé de base, plus un autre s'il s'agit du gros meeple et encore un autre si le symbole de votre faction se trouve sur la planète convoitée.
 Une édition indispensable pour tous les jedis de notre galaxie, surtout en cette période de fin de la saga des Skywalker.
+
 
 ## ... aux voyages
 

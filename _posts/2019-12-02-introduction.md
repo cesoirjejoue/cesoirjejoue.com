@@ -19,6 +19,7 @@ Bon, cette première rencontre s'est soldée par un lamentable échec, mais ce n
 
 ![Festival des jeux de Cannes]({{ site.baseurl }}/img/posts/2019/12/cannes.jpg "Festival des jeux de Cannes")
 
+
 ## 2 ans après
 
 2019 fut l'année ou j'ai découvert le festival des jeux de Cannes !! Whaou !! Comment imaginer que de tels évènements existent quand on ne fait pas partie de ce monde ludique ?? Comment imaginer autant de gens réunis autour de jeux, anciens ou nouveaux (les jeux hein !! quoique, les gens aussi finalement...), dans un même esprit, passer du bon temps assis autour d'une table à se creuser les méninges pour battre ses amis ou collaborer avec eux pour affronter un adversaire commun.

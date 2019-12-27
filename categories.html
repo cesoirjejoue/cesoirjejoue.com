@@ -8,7 +8,7 @@ title: Catégories
 <h1 class="article_title">Catégories</h1>
 
 {% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
+  <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
   <ol>
     {% for post in category[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
