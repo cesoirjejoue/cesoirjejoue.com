@@ -100,11 +100,15 @@ ul li {
 }
 
 ol {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 ol li {
 	display: inline;
+}
+
+h3 {
+  margin-top: 30px;
 }
 
 aside a {
