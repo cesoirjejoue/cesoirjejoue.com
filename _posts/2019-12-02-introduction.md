@@ -2,6 +2,7 @@
 date: 2019-12-12
 layout: post
 title: Encore un blog de jeu ?
+categories: [Placement d'ouvriers]
 ---
 
 ![Ce soir je joue]({{ site.baseurl }}/img/posts/2019/12/avatar.jpg "Ce soir je joue")
