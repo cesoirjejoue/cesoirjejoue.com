@@ -2,8 +2,13 @@
 
 {% assign jeu = site.data.jeux[page.jeu] %}
 
+{{ jeu }}
+
 {% for auteurs in jeu.auteurs %}
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
+
+{{ auteur }}
+
   <div class="">
     <figure>
     {% include image.html url="/img/auteurs/{{ auteur.name }}.jpg" description="{{ auteur.name }}" %}
