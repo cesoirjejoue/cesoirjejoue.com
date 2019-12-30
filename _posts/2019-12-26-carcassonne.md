@@ -49,9 +49,9 @@ Celui qui vient tout juste d'arriver et qui se cache encore dans son emballage d
 
 ## Auteur
 
-{% assign auteurs = site.data.jeux[post.jeu] %}
+{% assign jeu = site.data.jeux[post.jeu] %}
 
-{% for auteurs in jeux.auteurs %}
+{% for auteurs in jeu.auteurs %}
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
   <div class="">
     <figure>
