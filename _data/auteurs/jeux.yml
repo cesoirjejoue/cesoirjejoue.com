@@ -1,4 +1,4 @@
 carcassonne:
-  auteurs:
-    - ref: wrede
-    - ref: knizia
+    auteurs:
+        - ref: wrede
+        - ref: knizia

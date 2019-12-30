@@ -1,14 +1,14 @@
 cathala:
-  name: Bruno Cathala
-  site: http://www.brunocathala.com/
-  avatar: cathala.jpg
+    name: Bruno Cathala
+    site: http://www.brunocathala.com/
+    avatar: cathala.jpg
 
 wrede:
-  name: Klaus-Jürgen Wrede
-  site: http://www.kjwrede.de/
-  avatar:
+    name: Klaus-Jürgen Wrede
+    site: http://www.kjwrede.de/
+    avatar:
 
 knizia:
-  name: a
-  site: a
-  avatar: a
+    name: a
+    site: a
+    avatar: a
