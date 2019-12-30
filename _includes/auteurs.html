@@ -6,10 +6,12 @@
 
   {% assign auteur = site.data.auteurs[auteurs.ref] %}
 
-  <div class="">
+  <div class="auteur">
     <figure>
-      {{ auteur.name }}
-      <img src="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}"
+      {% if auteur.avatar %}
+        <img src="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}" />
+      {% endif %}
+      <figcaption>{{ auteur.name }}</figcaption>
     </figure>
   </div>
 {% endfor %}

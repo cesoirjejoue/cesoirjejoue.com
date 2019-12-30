@@ -346,3 +346,11 @@ a.more {
   a.more:hover {
     border-color: #FF9B26;
   }
+
+.auteur {
+  width: 300px;
+}
+
+.auteur img {
+  width: 100px;
+}
