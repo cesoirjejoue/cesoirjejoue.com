@@ -347,10 +347,19 @@ a.more {
     border-color: #FF9B26;
   }
 
+
+#auteurs {
+    background: #FF9B26;
+    padding: 2px 3px;
+    color: #fff;
+}
+
 .auteur {
   width: 300px;
 }
 
 .auteur img {
   width: 100px;
+  margin: 0;
+  left: 0;
 }
