@@ -49,5 +49,17 @@ Celui qui vient tout juste d'arriver et qui se cache encore dans son emballage d
 
 ## Auteur
 
-{% assign author = site.data.auteurs[page.auteur] %}
-<a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">{{ author.name }}</a>
+{% assign auteurs = site.data.jeux[post.jeu] %}
+
+{% for auteurs in jeux.auteurs %}
+{% assign auteur = site.data.auteurs[auteurs.ref] %}
+  <div class="">
+    <figure>
+    {% include image.html url="/img/auteurs/{{ auteur.name }}.jpg" description="{{ auteur.name }}" %}
+      {% if auteur.twitter %}
+        <figcaption><a rel="auteur" href="https://twitter.com/{{ auteur.twitter }}" title="{{ auteur.name }}">{{ auteur.name }}</a></figcaption>
+      {% endif %}
+    </figure>
+  </div>
+{% endfor %}
+</div>
