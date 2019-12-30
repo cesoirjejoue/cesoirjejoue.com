@@ -350,12 +350,14 @@ a.more {
 
 #auteurs {
     background: #FF9B26;
-    padding: 2px 3px;
+    padding: 2px 5px;
     color: #fff;
 }
 
-.auteur {
-  width: 300px;
+.figure {
+  width: 250px;
+  display: table-cell;
+  text-align: center;
 }
 
 .auteur img {
