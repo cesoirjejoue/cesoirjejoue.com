@@ -354,7 +354,7 @@ a.more {
     color: #fff;
 }
 
-.figure {
+figure {
   width: 250px;
   display: table-cell;
   text-align: center;
