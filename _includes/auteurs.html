@@ -2,12 +2,19 @@
 
 {% assign jeu = site.data.jeux[page.jeu] %}
 
-<p>{{ site.data.jeux[page.jeu] }}</p>
-
 {% for auteurs in jeu.auteurs %}
 
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
 
-<p>{{ site.data.auteurs[auteurs.ref] }}</p>
-
+  <div class="">
+    <figure>
+    {% include image.html url="/img/auteurs/{{ auteur.name }}.jpg" description="{{ auteur.name }}" %}
+      {% if auteur.twitter %}
+        <figcaption><a rel="auteur" href="https://twitter.com/{{ auteur.twitter }}" title="{{ auteur.name }}">{{ auteur.name }}</a></figcaption>
+      {% endif %}
+      {% if auteur.site %}
+        <figcaption><a rel="site" href="{{ auteur.site }}" title="{{ auteur.site }}">{{ auteur.site }}</a></figcaption>
+      {% endif %}
+    </figure>
+  </div>
 {% endfor %}
