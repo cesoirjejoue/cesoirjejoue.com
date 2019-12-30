@@ -354,8 +354,8 @@ a.more {
     color: #fff;
 }
 
-figure {
-  width: 250px;
+.auteur {
+  width: 200px;
   display: table-cell;
   text-align: center;
 }
