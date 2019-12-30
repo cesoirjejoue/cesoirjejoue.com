@@ -1,19 +1,22 @@
-<h2 id="auteurs">Auteurs mentionnés</h2>
+{% if page.jeu %}
 
-{% assign jeu = site.data.jeux[page.jeu] %}
+  <h2 id="auteurs">Auteurs mentionnés</h2>
 
-{% for auteurs in jeu.auteurs %}
+  {% assign jeu = site.data.jeux[page.jeu] %}
 
-  {% assign auteur = site.data.auteurs[auteurs.ref] %}
+  {% for auteurs in jeu.auteurs %}
 
-  <figure class="auteur">
-    {% if auteur.avatar %}
-      <img src="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}" />
-    {% endif %}
-    <figcaption>{{ auteur.name }}</figcaption>
-    {% if auteur.site %}
-      <figcaption><a rel="site" href="{{ auteur.site }}" title="{{ auteur.site }}">{{ auteur.site }}</a></figcaption>
-    {% endif %}
-  </figure>
+    {% assign auteur = site.data.auteurs[auteurs.ref] %}
 
-{% endfor %}
+    <figure class="auteur">
+      {% if auteur.avatar %}
+        <img src="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}" />
+      {% endif %}
+      <figcaption>{{ auteur.name }}</figcaption>
+      {% if auteur.site %}
+        <figcaption><a rel="site" href="{{ auteur.site }}" title="{{ auteur.site }}">{{ auteur.site }}</a></figcaption>
+      {% endif %}
+    </figure>
+
+  {% endfor %}
+{% endif %}
