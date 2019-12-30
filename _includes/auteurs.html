@@ -3,3 +3,11 @@
 {% assign jeu = site.data.jeux[page.jeu] %}
 
 <p>{{ site.data.jeux[page.jeu] }}</p>
+
+{% for auteurs in jeu.auteurs %}
+
+{% assign auteur = site.data.auteurs[auteurs.ref] %}
+
+<p>{{ site.data.auteurs[auteurs.ref] }}</p>
+
+{% endfor %}
