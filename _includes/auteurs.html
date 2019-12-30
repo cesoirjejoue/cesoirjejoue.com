@@ -3,7 +3,9 @@
 {% assign jeu = site.data.jeux[post.jeu] %}
 
 
-<p id="test1">{{ site.data.jeux[post.jeu] }}</p>
+<p id="test1a">{{ site.data.jeux[post.jeu] }}</p>
+<p id="test1b">{{ site.data.jeux[page.jeu] }}</p>
+
 <p id="test2">{{ jeu }}</p>
 
 {% for auteurs in jeu.auteurs %}
