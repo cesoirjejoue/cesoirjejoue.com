@@ -42,7 +42,10 @@
 		<!--{% if page.home %}-->
 			{{ content }}
 		<!--{% else %}-->
-	      	 	<div class="article_white">{{ content }}</div>
+	      	 	<div class="article_white">
+							{{ content }}
+							{% include auteurs.html %}
+						</div>
 		<!--{% endif %}-->
 
 	        <footer>
