@@ -1,24 +1,10 @@
 <h2 id="auteurs">Auteurs mentionnés</h2>
 
-{% assign jeu = site.data.jeux[post.jeu] %}
-{% assign machin = page.jeu %}
-{% assign truc = post.jeu %}
-
-<p id="test1a">{{ page.jeu }}</p>
-<p id="test1b">{{ post.jeu }}</p>
-
-<p id="test1c">{{ site.data.jeux[post.jeu] }}</p>
-<p id="test1d">{{ site.data.jeux[page.jeu] }}</p>
-
-<p id="test2a">{{ jeu }}</p>
-<p id="test2b">{{ machin }}</p>
-<p id="test2c">{{ truc }}</p>
+{% assign jeu = site.data.jeux[page.jeu] %}
 
 {% for auteurs in jeu.auteurs %}
+
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
-
-<p id="test3">{{ auteur }}</p>
-
 
   <div class="">
     <figure>
