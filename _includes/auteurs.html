@@ -1,4 +1,6 @@
-{% assign jeu = site.data.jeux[post.jeu] %}
+<h2 id="auteurs">Auteurs mentionnés</h2>
+
+{% assign jeu = site.data.jeux[page.jeu] %}
 
 {% for auteurs in jeu.auteurs %}
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
