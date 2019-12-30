@@ -2,12 +2,15 @@
 
 {% assign jeu = site.data.jeux[post.jeu] %}
 
-{{ jeu }}
+
+<p id="test1">{{ site.data.jeux[post.jeu] }}</p>
+<p id="test2">{{ jeu }}</p>
 
 {% for auteurs in jeu.auteurs %}
 {% assign auteur = site.data.auteurs[auteurs.ref] %}
 
-{{ auteur }}
+<p id="test3">{{ auteur }}</p>
+
 
   <div class="">
     <figure>
