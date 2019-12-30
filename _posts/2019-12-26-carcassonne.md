@@ -3,6 +3,7 @@ date: 2019-12-26
 layout: post
 title: Carcassonne, l'intemporel
 categories: [tuiles]
+auteurs: wrede
 ---
 
 {% include image.html url="/img/posts/2019/12/carcassonne_1.jpg" description="I love Carcassonne" %}
@@ -44,3 +45,9 @@ Ici, les abbayes sont remplacées par des marchés, et compléter un marché vou
 {% include image.html url="/img/posts/2019/12/carcassonne_6.jpg" description="Carcassonne Chasseurs et cueilleurs" %}
 
 Celui qui vient tout juste d'arriver et qui se cache encore dans son emballage de transport est **Carcassonne Chasseurs et cueilleurs**. Il n'est nouveau que chez moi car ce jeu est en réalité sorti en 2002. Il s'agissait alors de la première variation du Carcassonne de base. Les meeples sont ici chasseurs, pêcheurs ou cueilleurs. Une des particularités de cette version est la possibilité de perdre des points. En effet, chaque chasseur dans une prairie marque deux points par animal présent. Cependant, si un trouve se trouve là aussi, celui-ci chasse un gibier qui ne rapportera plus ces deux points de base. Egalement, les forêts ou rivières inachevées ne rapportent aucun point. Plusieurs éléments qui diffèrent donc bien du jeu de base et permettent de voir autrement ce jeu de pose de tuile.
+
+
+## Auteur
+
+{% assign author = site.data.auteurs[page.auteur] %}
+<a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">{{ author.name }}</a>
