@@ -10,8 +10,9 @@
 
     <figure class="auteur">
       {% if auteur.avatar %}
-        {% include image.html url="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}" %}
+        <img src="/img/auteurs/{{ auteur.avatar }}.jpg" description="{{ auteur.name }}" />
       {% endif %}
+      <figcaption>{{ auteur.name }}</figcaption>
       {% if auteur.site %}
         <figcaption><a rel="site" href="http://{{ auteur.site }}" title="{{ auteur.site }}">{{ auteur.site }}</a></figcaption>
       {% endif %}
@@ -21,4 +22,4 @@
     </figure>
 
   {% endfor %}
-{% endif %}
+{% endif %} 
